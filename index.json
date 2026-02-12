@@ -1,0 +1,706 @@
+{
+  "version": 1,
+  "generated_at": "2026-02-12T20:42:01.526Z",
+  "packs": [
+    {
+      "name": "acolyte_ru",
+      "display_name": "Undead Acolyte (Russian)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "ru",
+      "sound_count": 30,
+      "total_size_bytes": 2984156,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "acolyte_ru"
+    },
+    {
+      "name": "aoe2",
+      "display_name": "Age of Empires II Taunts",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 42,
+      "total_size_bytes": 630371,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "aoe2"
+    },
+    {
+      "name": "aom_greek",
+      "display_name": "Age of Mythology - Greek Villager",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 20,
+      "total_size_bytes": 1211988,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "aom_greek"
+    },
+    {
+      "name": "brewmaster_ru",
+      "display_name": "Pandaren Brewmaster (Russian)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "ru",
+      "sound_count": 23,
+      "total_size_bytes": 2551528,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "brewmaster_ru"
+    },
+    {
+      "name": "dota2_axe",
+      "display_name": "Axe (Dota 2)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 20,
+      "total_size_bytes": 538432,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "dota2_axe"
+    },
+    {
+      "name": "duke_nukem",
+      "display_name": "Duke Nukem",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 24,
+      "total_size_bytes": 7737086,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "duke_nukem"
+    },
+    {
+      "name": "glados",
+      "display_name": "GLaDOS (Portal)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 23,
+      "total_size_bytes": 1143346,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "glados"
+    },
+    {
+      "name": "hd2_helldiver",
+      "display_name": "Helldiver (Helldivers 2)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 31,
+      "total_size_bytes": 616665,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "hd2_helldiver"
+    },
+    {
+      "name": "molag_bal",
+      "display_name": "Molag Bal",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 29,
+      "total_size_bytes": 25545048,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "molag_bal"
+    },
+    {
+      "name": "peasant",
+      "display_name": "Human Peasant",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 25,
+      "total_size_bytes": 1310954,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "peasant"
+    },
+    {
+      "name": "peasant_cz",
+      "display_name": "Lidský rolník (CZ)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "cs",
+      "sound_count": 25,
+      "total_size_bytes": 1804107,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "peasant_cz"
+    },
+    {
+      "name": "peasant_es",
+      "display_name": "Campesino Humano (ES)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "es",
+      "sound_count": 25,
+      "total_size_bytes": 1342974,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "peasant_es"
+    },
+    {
+      "name": "peasant_fr",
+      "display_name": "Paysan Humain (FR)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "fr",
+      "sound_count": 25,
+      "total_size_bytes": 1580126,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "peasant_fr"
+    },
+    {
+      "name": "peasant_ru",
+      "display_name": "Human Peasant (Russian)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "ru",
+      "sound_count": 18,
+      "total_size_bytes": 979198,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "peasant_ru"
+    },
+    {
+      "name": "peon",
+      "display_name": "Orc Peon",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 27,
+      "total_size_bytes": 872012,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "peon"
+    },
+    {
+      "name": "peon_cz",
+      "display_name": "Orčí peón (CZ)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "cs",
+      "sound_count": 27,
+      "total_size_bytes": 1295067,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "peon_cz"
+    },
+    {
+      "name": "peon_es",
+      "display_name": "Peon Orco (ES)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "es",
+      "sound_count": 27,
+      "total_size_bytes": 859036,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "peon_es"
+    },
+    {
+      "name": "peon_fr",
+      "display_name": "Peon Orc (FR)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "fr",
+      "sound_count": 27,
+      "total_size_bytes": 971410,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "peon_fr"
+    },
+    {
+      "name": "peon_pl",
+      "display_name": "Orc Peon (Polish)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "pl",
+      "sound_count": 22,
+      "total_size_bytes": 4026800,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "peon_pl"
+    },
+    {
+      "name": "peon_ru",
+      "display_name": "Orc Peon (Russian)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "ru",
+      "sound_count": 25,
+      "total_size_bytes": 1117894,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "peon_ru"
+    },
+    {
+      "name": "ra2_kirov",
+      "display_name": "RA2 Kirov Airship",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 19,
+      "total_size_bytes": 367012,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "ra2_kirov"
+    },
+    {
+      "name": "ra2_soviet_engineer",
+      "display_name": "RA2 Soviet Engineer",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 12,
+      "total_size_bytes": 58190,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "ra2_soviet_engineer"
+    },
+    {
+      "name": "ra_soviet",
+      "display_name": "Red Alert Soviet Soldier",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 36,
+      "total_size_bytes": 1239943,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "ra_soviet"
+    },
+    {
+      "name": "rick",
+      "display_name": "Rick Sanchez",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 14,
+      "total_size_bytes": 420414,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "rick"
+    },
+    {
+      "name": "sc_battlecruiser",
+      "display_name": "StarCraft Battlecruiser",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "input.required",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 13,
+      "total_size_bytes": 423109,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "sc_battlecruiser"
+    },
+    {
+      "name": "sc_firebat",
+      "display_name": "StarCraft Firebat",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "input.required"
+      ],
+      "language": "en",
+      "sound_count": 7,
+      "total_size_bytes": 146143,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "sc_firebat"
+    },
+    {
+      "name": "sc_kerrigan",
+      "display_name": "Sarah Kerrigan (StarCraft)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 16,
+      "total_size_bytes": 415163,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "sc_kerrigan"
+    },
+    {
+      "name": "sc_medic",
+      "display_name": "StarCraft Medic",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "input.required"
+      ],
+      "language": "en",
+      "sound_count": 6,
+      "total_size_bytes": 234145,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "sc_medic"
+    },
+    {
+      "name": "sc_scv",
+      "display_name": "StarCraft SCV",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "input.required"
+      ],
+      "language": "en",
+      "sound_count": 8,
+      "total_size_bytes": 139424,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "sc_scv"
+    },
+    {
+      "name": "sc_tank",
+      "display_name": "StarCraft Siege Tank",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "input.required"
+      ],
+      "language": "en",
+      "sound_count": 6,
+      "total_size_bytes": 223089,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "sc_tank"
+    },
+    {
+      "name": "sc_terran",
+      "display_name": "StarCraft Terran (All Units)",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 17,
+      "total_size_bytes": 885414,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "sc_terran"
+    },
+    {
+      "name": "sc_vessel",
+      "display_name": "StarCraft Science Vessel",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "input.required"
+      ],
+      "language": "en",
+      "sound_count": 6,
+      "total_size_bytes": 173504,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "sc_vessel"
+    },
+    {
+      "name": "sheogorath",
+      "display_name": "Sheogorath",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 41,
+      "total_size_bytes": 14615993,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "sheogorath"
+    },
+    {
+      "name": "sopranos",
+      "display_name": "Tony Soprano",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 32,
+      "total_size_bytes": 811088,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "sopranos"
+    },
+    {
+      "name": "tf2_engineer",
+      "display_name": "TF2 Engineer",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 51,
+      "total_size_bytes": 1381445,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "tf2_engineer"
+    },
+    {
+      "name": "wc2_peasant",
+      "display_name": "WC2 Peasant",
+      "version": "1.0.0",
+      "trust_tier": "official",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "sound_count": 21,
+      "total_size_bytes": 167005,
+      "source_repo": "PeonPing/og-packs",
+      "source_path": "wc2_peasant"
+    }
+  ]
+}
