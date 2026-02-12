@@ -1,0 +1,89 @@
+name: Validate Index
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'index.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate index.json
+        run: |
+          python3 -c "
+          import json, re, sys
+
+          with open('index.json') as f:
+              data = json.load(f)
+
+          errors = []
+
+          # Check version
+          if data.get('version') != 1:
+              errors.append(f'version must be 1, got {data.get(\"version\")}')
+
+          packs = data.get('packs', [])
+          if not isinstance(packs, list):
+              errors.append('packs must be an array')
+              print('\n'.join(errors))
+              sys.exit(1)
+
+          REQUIRED_FIELDS = [
+              'name', 'display_name', 'version', 'trust_tier',
+              'categories', 'language', 'sound_count',
+              'source_repo', 'source_ref', 'source_path',
+          ]
+
+          NAME_RE = re.compile(r'^[a-z0-9][a-z0-9_-]{0,63}$')
+          VERSION_RE = re.compile(r'^\d+\.\d+\.\d+$')
+          VALID_TIERS = {'official', 'verified', 'community'}
+
+          seen_names = set()
+          prev_name = ''
+
+          for i, pack in enumerate(packs):
+              prefix = f'packs[{i}]'
+
+              # Required fields
+              for field in REQUIRED_FIELDS:
+                  if field not in pack:
+                      errors.append(f'{prefix}: missing required field \"{field}\"')
+
+              name = pack.get('name', '')
+
+              # Name pattern
+              if name and not NAME_RE.match(name):
+                  errors.append(f'{prefix}: name \"{name}\" does not match ^[a-z0-9][a-z0-9_-]{{0,63}}$')
+
+              # Name uniqueness
+              if name in seen_names:
+                  errors.append(f'{prefix}: duplicate name \"{name}\"')
+              seen_names.add(name)
+
+              # Alphabetical sort order
+              if name and name < prev_name:
+                  errors.append(f'{prefix}: name \"{name}\" is out of alphabetical order (after \"{prev_name}\")')
+              prev_name = name
+
+              # Version pattern
+              version = pack.get('version', '')
+              if version and not VERSION_RE.match(version):
+                  errors.append(f'{prefix}: version \"{version}\" does not match ^\\d+\\.\\d+\\.\\d+$')
+
+              # Trust tier
+              tier = pack.get('trust_tier', '')
+              if tier and tier not in VALID_TIERS:
+                  errors.append(f'{prefix}: trust_tier \"{tier}\" not in {VALID_TIERS}')
+
+          if errors:
+              print(f'Validation failed with {len(errors)} error(s):')
+              for e in errors:
+                  print(f'  - {e}')
+              sys.exit(1)
+
+          print(f'index.json is valid: {len(packs)} packs')
+          "
