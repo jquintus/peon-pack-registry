@@ -34,6 +34,7 @@ jobs:
                   'sound_count': entry.get('sound_count', 0),
                   'total_size_bytes': entry.get('total_size_bytes', 0),
                   'source_repo': entry['source']['repo'],
+                  'source_ref': entry['source'].get('ref', 'main'),
                   **({'source_path': entry['source']['path']} if 'path' in entry['source'] else {}),
               })
 

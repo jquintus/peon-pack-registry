@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-02-12T20:43:55Z",
+  "generated_at": "2026-02-12T20:45:27.180Z",
   "packs": [
     {
       "name": "acolyte_ru",
@@ -20,6 +20,7 @@
       "sound_count": 30,
       "total_size_bytes": 2984156,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "acolyte_ru"
     },
     {
@@ -40,6 +41,7 @@
       "sound_count": 42,
       "total_size_bytes": 630371,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "aoe2"
     },
     {
@@ -60,6 +62,7 @@
       "sound_count": 20,
       "total_size_bytes": 1211988,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "aom_greek"
     },
     {
@@ -80,6 +83,7 @@
       "sound_count": 23,
       "total_size_bytes": 2551528,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "brewmaster_ru"
     },
     {
@@ -100,6 +104,7 @@
       "sound_count": 20,
       "total_size_bytes": 538432,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "dota2_axe"
     },
     {
@@ -120,6 +125,7 @@
       "sound_count": 24,
       "total_size_bytes": 7737086,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "duke_nukem"
     },
     {
@@ -140,6 +146,7 @@
       "sound_count": 23,
       "total_size_bytes": 1143346,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "glados"
     },
     {
@@ -160,6 +167,7 @@
       "sound_count": 31,
       "total_size_bytes": 616665,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "hd2_helldiver"
     },
     {
@@ -179,6 +187,7 @@
       "sound_count": 29,
       "total_size_bytes": 25545048,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "molag_bal"
     },
     {
@@ -199,11 +208,12 @@
       "sound_count": 25,
       "total_size_bytes": 1310954,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "peasant"
     },
     {
       "name": "peasant_cz",
-      "display_name": "Lidsk\u00fd roln\u00edk (CZ)",
+      "display_name": "Lidský rolník (CZ)",
       "version": "1.0.0",
       "trust_tier": "official",
       "categories": [
@@ -219,6 +229,7 @@
       "sound_count": 25,
       "total_size_bytes": 1804107,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "peasant_cz"
     },
     {
@@ -239,6 +250,7 @@
       "sound_count": 25,
       "total_size_bytes": 1342974,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "peasant_es"
     },
     {
@@ -259,6 +271,7 @@
       "sound_count": 25,
       "total_size_bytes": 1580126,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "peasant_fr"
     },
     {
@@ -279,6 +292,7 @@
       "sound_count": 18,
       "total_size_bytes": 979198,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "peasant_ru"
     },
     {
@@ -299,11 +313,12 @@
       "sound_count": 27,
       "total_size_bytes": 872012,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "peon"
     },
     {
       "name": "peon_cz",
-      "display_name": "Or\u010d\u00ed pe\u00f3n (CZ)",
+      "display_name": "Orčí peón (CZ)",
       "version": "1.0.0",
       "trust_tier": "official",
       "categories": [
@@ -319,6 +334,7 @@
       "sound_count": 27,
       "total_size_bytes": 1295067,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "peon_cz"
     },
     {
@@ -339,6 +355,7 @@
       "sound_count": 27,
       "total_size_bytes": 859036,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "peon_es"
     },
     {
@@ -359,6 +376,7 @@
       "sound_count": 27,
       "total_size_bytes": 971410,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "peon_fr"
     },
     {
@@ -379,6 +397,7 @@
       "sound_count": 22,
       "total_size_bytes": 4026800,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "peon_pl"
     },
     {
@@ -399,6 +418,7 @@
       "sound_count": 25,
       "total_size_bytes": 1117894,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "peon_ru"
     },
     {
@@ -419,6 +439,7 @@
       "sound_count": 19,
       "total_size_bytes": 367012,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "ra2_kirov"
     },
     {
@@ -439,6 +460,7 @@
       "sound_count": 12,
       "total_size_bytes": 58190,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "ra2_soviet_engineer"
     },
     {
@@ -459,6 +481,7 @@
       "sound_count": 36,
       "total_size_bytes": 1239943,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "ra_soviet"
     },
     {
@@ -479,6 +502,7 @@
       "sound_count": 14,
       "total_size_bytes": 420414,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "rick"
     },
     {
@@ -497,6 +521,7 @@
       "sound_count": 13,
       "total_size_bytes": 423109,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "sc_battlecruiser"
     },
     {
@@ -514,6 +539,7 @@
       "sound_count": 7,
       "total_size_bytes": 146143,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "sc_firebat"
     },
     {
@@ -533,6 +559,7 @@
       "sound_count": 16,
       "total_size_bytes": 415163,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "sc_kerrigan"
     },
     {
@@ -550,6 +577,7 @@
       "sound_count": 6,
       "total_size_bytes": 234145,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "sc_medic"
     },
     {
@@ -567,6 +595,7 @@
       "sound_count": 8,
       "total_size_bytes": 139424,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "sc_scv"
     },
     {
@@ -584,6 +613,7 @@
       "sound_count": 6,
       "total_size_bytes": 223089,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "sc_tank"
     },
     {
@@ -604,6 +634,7 @@
       "sound_count": 17,
       "total_size_bytes": 885414,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "sc_terran"
     },
     {
@@ -621,6 +652,7 @@
       "sound_count": 6,
       "total_size_bytes": 173504,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "sc_vessel"
     },
     {
@@ -640,6 +672,7 @@
       "sound_count": 41,
       "total_size_bytes": 14615993,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "sheogorath"
     },
     {
@@ -660,6 +693,7 @@
       "sound_count": 32,
       "total_size_bytes": 811088,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "sopranos"
     },
     {
@@ -680,6 +714,7 @@
       "sound_count": 51,
       "total_size_bytes": 1381445,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "tf2_engineer"
     },
     {
@@ -700,6 +735,7 @@
       "sound_count": 21,
       "total_size_bytes": 167005,
       "source_repo": "PeonPing/og-packs",
+      "source_ref": "v1.0.0",
       "source_path": "wc2_peasant"
     }
   ]
