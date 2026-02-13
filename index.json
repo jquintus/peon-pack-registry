@@ -200,6 +200,85 @@
       "updated": "2026-02-12"
     },
     {
+      "name": "counterstrike",
+      "display_name": "Counter-Strike",
+      "version": "1.0.0",
+      "description": "Classic Counter-Strike radio commands",
+      "author": {
+        "name": "colbyfayock",
+        "github": "colbyfayock"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 15,
+      "total_size_bytes": 983040,
+      "source_repo": "colbyfayock/openpeon-counterstrike",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "620a1730998f238c6866f4f4b8a8415a8cb18e15e8cf5008a893d8e6a400051b",
+      "tags": [
+        "gaming",
+        "counterstrike",
+        "cs"
+      ],
+      "preview_sounds": [
+        "lock-and-load.wav",
+        "roger.wav"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
+    },
+    {
+      "name": "deadlock_dynamo",
+      "display_name": "Dynamo (Deadlock)",
+      "version": "1.0.0",
+      "description": "Dynamo voice pack from Valve's Deadlock",
+      "author": {
+        "name": "mwaterman29",
+        "github": "mwaterman29"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "CC-BY-NC-4.0",
+      "sound_count": 48,
+      "total_size_bytes": 1038668,
+      "source_repo": "mwaterman29/openpeon-deadlock-dynamo",
+      "source_ref": "v1.0.0",
+      "source_path": ".",
+      "manifest_sha256": "c1c983029329cf6e419086be004e3d4f4ccff2a7feefabfaf2eb49dac704d2de",
+      "tags": [
+        "gaming",
+        "deadlock",
+        "valve",
+        "moba"
+      ],
+      "preview_sounds": [
+        "dynamo_select_06.mp3",
+        "dynamo_ping_good_job_01.mp3"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
+    },
+    {
       "name": "dota2_axe",
       "display_name": "Axe (Dota 2)",
       "version": "1.0.0",
@@ -1651,6 +1730,45 @@
       ],
       "added": "2026-02-12",
       "updated": "2026-02-12"
+    },
+    {
+      "name": "wc3_corrupted_arthas",
+      "display_name": "Corrupted Arthas (WarCraft 3)",
+      "version": "1.0.0",
+      "description": "Corrupted Arthas (WarCraft 3) sound pack from WarCraft 3",
+      "author": {
+        "name": "OmegaZero",
+        "github": "OmegaZero"
+      },
+      "trust_tier": "community",
+      "categories": [
+        "session.start",
+        "task.acknowledge",
+        "task.complete",
+        "task.error",
+        "input.required",
+        "resource.limit",
+        "user.spam"
+      ],
+      "language": "en",
+      "license": "MIT",
+      "sound_count": 15,
+      "total_size_bytes": 322809,
+      "source_repo": "OmegaZero/openpeon-corrupted-arthas",
+      "source_ref": "v1.0.1",
+      "source_path": ".",
+      "manifest_sha256": "f6171237f344679112b3743c1db375dbf0a02ad6893c1c2bfdcc3c95e871d27a",
+      "tags": [
+        "gaming",
+        "warcraft3",
+        "rts"
+      ],
+      "preview_sounds": [
+        "8-no-one-orders-me-around.mp3",
+        "12-frostmourn-hungers.mp3"
+      ],
+      "added": "2026-02-13",
+      "updated": "2026-02-13"
     },
     {
       "name": "wc3_jaina",
