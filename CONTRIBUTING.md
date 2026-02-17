@@ -6,13 +6,15 @@
 
 In your own GitHub account, create a repo with:
 
-```
+```text
 peonping-mypack/
   openpeon.json       # CESP v1.0 manifest
   sounds/
     sound1.mp3
     sound2.wav
     ...
+  icons/              # Optional
+    pack.png
   README.md           # Optional
   LICENSE             # Recommended
 ```
@@ -80,5 +82,8 @@ That's it. CI will validate your entry automatically. We'll review and merge. On
 - Entries in `index.json` must be sorted alphabetically by `name`
 - Audio files: WAV, MP3, or OGG only
 - Max 1 MB per audio file, 50 MB total per pack
+- Icon files: PNG (recommended), JPEG, WebP, or SVG
+- Max 500 KB per icon file
+- Recommended icon size: 256x256 px
 - No offensive content
 - Source repo must be publicly accessible

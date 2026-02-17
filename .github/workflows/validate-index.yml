@@ -321,7 +321,58 @@ jobs:
                       errors.append(f"{name}: cannot fetch sound {sfile}: {e}")
                       pack_checks['audio_files'].append({'file': sfile, 'ok': False})
 
-              # 6. Check claimed total size
+              # 6. Collect icon files from manifest
+              MAX_ICON_SIZE = 500 * 1024  # 500KB max per icon
+              icon_files = set()
+              pack_icon = manifest.get('icon', '')
+              if pack_icon:
+                  icon_files.add(pack_icon)
+              for cat_name, cat_data in manifest.get('categories', {}).items():
+                  cat_icon = cat_data.get('icon', '')
+                  if cat_icon:
+                      icon_files.add(cat_icon)
+                  for sound in cat_data.get('sounds', []):
+                      sound_icon = sound.get('icon', '')
+                      if sound_icon:
+                          icon_files.add(sound_icon)
+
+              # 7. Spot-check up to 2 icon files
+              if icon_files:
+                  print(f"  Icon files: {len(icon_files)} referenced")
+                  pack_checks['icon_files'] = []
+                  for icon_path in sorted(icon_files)[:2]:
+                      icon_url = f"{base}/{icon_path}"
+                      try:
+                          req = urllib.request.urlopen(icon_url, timeout=15)
+                          data = req.read(512)
+                          size = int(req.headers.get('Content-Length', len(data)))
+
+                          is_image = False
+                          ext = os.path.splitext(icon_path)[1].lower()
+                          if data[:4] == b'\x89PNG':
+                              is_image = True
+                          elif data[:3] == b'\xff\xd8\xff':
+                              is_image = True
+                          elif data[:4] == b'RIFF' and data[8:12] == b'WEBP':
+                              is_image = True
+                          elif b'<svg' in data[:256]:
+                              is_image = True
+
+                          if not is_image:
+                              warnings.append(f"{name}: icon {icon_path} does not appear to be a valid image file")
+                              pack_checks['icon_files'].append({'file': icon_path, 'ok': False})
+                          elif size > MAX_ICON_SIZE:
+                              warnings.append(f"{name}: icon {icon_path} is {size / 1024:.0f}KB (max 500KB)")
+                              pack_checks['icon_files'].append({'file': icon_path, 'ok': False, 'size': size})
+                          else:
+                              pack_checks['icon_files'].append({'file': icon_path, 'ok': True, 'size': size})
+                              print(f"  {icon_path}: OK (icon, {size} bytes)")
+
+                      except Exception as e:
+                          warnings.append(f"{name}: cannot fetch icon {icon_path}: {e}")
+                          pack_checks['icon_files'].append({'file': icon_path, 'ok': False})
+
+              # 8. Check claimed total size
               claimed_size = pack.get('total_size_bytes', 0)
               if claimed_size and claimed_size > MAX_PACK_SIZE:
                   errors.append(f"{name}: total_size_bytes={claimed_size} exceeds {MAX_PACK_SIZE / 1024 / 1024:.0f}MB limit")
